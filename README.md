@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# Welcome
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Hey wake up! 
 
-## Available Scripts
+Here is a proyect that I am working on. It's a v.1 but with a lot of ideas that I want to add.
+Hope you enjoy and learn something new =)
 
-In the project directory, you can run:
+## Other libraries
 
-### `yarn start`
+To speed up the process of building this app, I used the following external libraries:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Chakra-ui : A component library with style props with focus in the accessibility
+- Formik: A form handler that I used when adding a new comment
+- React-Icons: To use almost all the icons library available
+- React-router: For routing 
+- Jest: For testing
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## About the App
 
-### `yarn test`
+I designed it to be an movile-only app.  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+It is not unknown that more and more people are putting aside their PC / laptop to only use their mobile and many modern applications are taking the concept of 'mobile first' to 'mobile only' such as TikTok, Instagram, Twitter or Medium.
 
-### `yarn build`
+Being a blogging and commenting app that is normally navigated vertically, I decided to make it mobile only
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+It has 4 main screens.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Home: Where the list of existing publications appears.
+- Detail page: When you navigate inside a publication you can also see its comments and create new comments; either as a guest or logged in.
+- My publications: You will see the list of all your posts, only if you have already logged in, if not, it will send you to the configuration page.
+- Settings: Where you can log in with one of the 10 enabled users. And if you are already logged in, you can log out.
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## How does it work
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Most of the content come directly from the API, but the user logged-in and new comments of each post, are stored in the 'localstorage' because even though I am sending information to the API to create a new comment, it is not really stored in the database, so I had to simulate it so that you have the feeling that it is.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Next steps
 
-## Learn More
+The following I would do to continue advancing in this app:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Create transitions using libraries like Motion for a modern feel.
+- Create new post, it would be similar to creating a new comment, but to advance in other topics I left it aside.
+- Improve controls to create /edit / create / delete both post and comments.
+- Use an account creation / login control system like Firebase.
+- Add analitycs.
+- Handling the PWA 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+And last but not least, more testing
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Goodbye
+Thank you for reading 
+Best, Martín.
